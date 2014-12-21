@@ -21,4 +21,3 @@ Make something great, then push it to your [Heroku](http://heroku.com) account:
 3. `git push heroku master`
 
 This Heroku's config is based in this repository: https://github.com/jamiew/heroku-static-site
-
