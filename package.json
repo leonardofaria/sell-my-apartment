@@ -1,0 +1,15 @@
+{
+  "name": "sellmyapartment",
+  "version": "1.0.0",
+  "description": "A simple website deployed on Heroku to sell my apartment",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leonardo Faria",
+  "devDependencies": {
+    "grunt": "~0.4.x",
+    "grunt-cli": "0.1.x",
+    "grunt-yui-compressor": "^0.3.3"
+  }
+}

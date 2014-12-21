@@ -1,0 +1,101 @@
+body {
+  background: #353535;
+  padding: 5% 0;
+}
+
+header {
+  background: #82D3E4;
+  box-sizing: border-box;
+  color: #fff;
+  margin: 0 auto 0;
+  padding: 2% 4%;
+  width: 90%;
+}
+
+header h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: #F6F6F6;
+  padding: 4%;
+  width: 90%;
+}
+
+.google-maps {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.gallery {
+  width: 100%;
+  float: left;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.gallery figure {
+  display: inline-block;
+  margin: auto;
+}
+
+figure.half {
+	float: left;
+	margin: 0 0 4% 4%;
+	width: 48%;
+}
+
+figure.quarter {
+	float: left;
+	margin: 0 0 4% 4%;
+	width: 22%;
+}
+
+figure.first {
+	margin-left: 0;
+}
+
+.gallery figcaption {
+  display: none;
+}
+
+.avatar {
+  border-radius: 50%;
+  margin: 5px 15px 0 0;
+}
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+
+  body {
+
+  }
+
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
